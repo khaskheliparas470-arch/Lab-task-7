@@ -1,0 +1,6 @@
+//Question1
+/Create a set containing five different fruits and print it. 
+
+fruits = {"Apple", "Banana", "Mango", "Orange", "Grapes"}
+
+print(fruits)

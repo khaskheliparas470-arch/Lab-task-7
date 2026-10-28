@@ -1,0 +1,25 @@
+Question6
+Practice the four important operations: union (|), intersection (&), difference (-), and symmetric difference (^). 
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+Find all unique elements in A and B. 
+Using the same sets, find elements common to both sets. 
+Find A - B and B - A. Explain why their results differ. 
+Find elements that are in either A or B, but not in both. 
+
+
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+
+# 1. Union
+print("Union:", A | B)
+
+# 2. Intersection
+print("Intersection:", A & B)
+
+# 3. Difference
+print("A - B:", A - B)
+print("B - A:", B - A)
+
+# 4. Symmetric Difference
+print("Symmetric Difference:", A ^ B)
